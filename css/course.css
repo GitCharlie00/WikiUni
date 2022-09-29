@@ -28,12 +28,11 @@ body {
 .row {
     display: flex;
     flex-direction: column;
-    width: 80%;
     align-items: center;
     justify-self: center;
 }
 
-.row#main {
+.row#caption {
     width: 70%;
     flex-direction: column;
     align-items: left;
@@ -42,8 +41,20 @@ body {
     padding: 4% 2% 4% 2%;
 }
 
+.row#titolo {
+    width: 40%;
+    text-align: center;
+}
+
+.row#but {
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
 .row a {
-    width: 70%;
     background-color: rgb(208, 65, 65);
     color: antiquewhite !important;
     font-weight: 700;
@@ -64,6 +75,13 @@ body {
     transform: translateY(-7px);
 }
 
+.row a:active {
+    background-color: rgb(255, 0, 0);
+    border-color: blanchedalmond;
+    box-shadow: 0px 15px 20px rgba(71, 14, 14, 0.4) !important;
+    transform: translateY(-2px);
+}
+
 .row h3 {
     text-align: center;
     font-weight: 900;
@@ -78,5 +96,4 @@ body {
     border-radius: 15px;
     margin-top: 4%;
     margin-bottom: 4%;
-    padding: 1% 4% 1% 4%;
 }
